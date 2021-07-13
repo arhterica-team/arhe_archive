@@ -9,9 +9,10 @@ const connectionOptions = {
   useCreateIndex: true,
 }
 
+const URL = `mongodb+srv://arhe1:${process.env.DB_PASS}@arhetericaclaster-5s8wz.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`
 const bootstrap = async () => {
   await mongoose.connect(
-    `mongodb+srv://arhe1:123123123@arhetericaclaster-5s8wz.mongodb.net/test2?retryWrites=true&w=majority`,
+    URL,
     connectionOptions
   )
 
