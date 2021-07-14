@@ -1,6 +1,6 @@
 import { MartialTraitUid, InjureUid, MetamorphosesUid, MysticalAbilitiesUid, AnchorUid } from "./uids";
 
-type Deprecated = '0.21'
+type Deprecated = '0.21' | "0.22"
 
 export type MartialTrait = {
   title: string
