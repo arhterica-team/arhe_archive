@@ -2130,9 +2130,9 @@ const items: (ItemGeneral | ItemMeleeWeapon | ItemMissileWeapon | ItemFirearm | 
         ],
     },
     {
-        "title": "Колчан Стріл",
+        "title": "Колчан Стріл - Лук",
         "type": "general",
-        "uid": "arrows",
+        "uid": "arrows:hunters_bow",
         "minPrice": 2000,
         "capacity": 3,
         "weight": 2,
@@ -2146,9 +2146,73 @@ const items: (ItemGeneral | ItemMeleeWeapon | ItemMissileWeapon | ItemFirearm | 
         ],
     },
     {
-        "title": "Колчан Болтів>",
+        "title": "Колчан Стріл - Короткий Лук",
         "type": "general",
-        "uid": "bolts",
+        "uid": "arrows:short_bow",
+        "minPrice": 2000,
+        "capacity": 3,
+        "weight": 2,
+        "masteryRank": 0,
+        "description": "Вістря, стовбур та оперення кожної стріли виготовляється вручну майстрами, яких з кожним десятиліттям стає все менше. Висока якість стріли цінується не менше, аніж якість зброї, з якої вона буде випущена.",
+        "effects": [
+                ""
+            ],
+        "meta": [
+            "Число зарядів: 30 "
+        ],
+    },
+    {
+        "title": "Колчан Стріл - Великий Лук",
+        "type": "general",
+        "uid": "arrows:long_bow",
+        "minPrice": 2000,
+        "capacity": 3,
+        "weight": 2,
+        "masteryRank": 0,
+        "description": "Вістря, стовбур та оперення кожної стріли виготовляється вручну майстрами, яких з кожним десятиліттям стає все менше. Висока якість стріли цінується не менше, аніж якість зброї, з якої вона буде випущена.",
+        "effects": [
+                ""
+            ],
+        "meta": [
+            "Число зарядів: 30 "
+        ],
+    },
+    {
+        "title": "Колчан Болтів - Легкий Арбалет",
+        "type": "general",
+        "uid": "bolts:crossbow",
+        "minPrice": 2000,
+        "capacity": 3,
+        "weight": 2,
+        "masteryRank": 0,
+        "description": "Вістря, стовбур та оперення кожної стріли виготовляється вручну майстрами, яких з кожним десятиліттям стає все менше. Висока якість стріли цінується не менше, аніж якість зброї, з якої вона буде випущена.",
+        "effects": [
+                ""
+            ],
+        "meta": [
+            "Число зарядів: 30 "
+        ],
+    },
+    {
+        "title": "Колчан Болтів - Важкий Арбалет",
+        "type": "general",
+        "uid": "bolts:siege_crossbow",
+        "minPrice": 2000,
+        "capacity": 3,
+        "weight": 2,
+        "masteryRank": 0,
+        "description": "Вістря, стовбур та оперення кожної стріли виготовляється вручну майстрами, яких з кожним десятиліттям стає все менше. Висока якість стріли цінується не менше, аніж якість зброї, з якої вона буде випущена.",
+        "effects": [
+                ""
+            ],
+        "meta": [
+            "Число зарядів: 30 "
+        ],
+    },
+    {
+        "title": "Колчан Болтів - Одноручний Арбалет",
+        "type": "general",
+        "uid": "bolts:one-handed_crossbow",
         "minPrice": 2000,
         "capacity": 3,
         "weight": 2,
